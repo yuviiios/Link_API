@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "website": "https://example.com/",
+  "brand": {
+    "name": "Northstar Web Studio",
+    "category": "Small business web design",
+    "summary": "Builds and maintains websites for local businesses."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "A studio offering design, development, and ongoing support.",
+      "products_and_services": ["Website design", "Website maintenance"],
+      "competitors": [
+        {
+          "name": "Squarespace",
+          "focus": "Hosted website builder",
+          "relevance": "An alternative for small businesses choosing between a builder and a studio.",
+          "potential_strengths": ["Template-based setup may appeal to DIY customers."],
+          "potential_gaps": ["Customers seeking hands-on design may prefer a studio."],
+          "evidence_status": "unverified_model_suggestion"
+        }
+      ],
+      "strengths": ["Design and maintenance from the same team"],
+      "opportunities": ["Publish case studies for local service businesses"]
+    },
+    "target_search_queries": [
+      {"query": "small business website design services", "platforms": ["Google"], "intent": "Hire a designer", "business_relevance": "Matches the studio's core service", "target_audience": "Local business owners"},
+      {"query": "website designer for local shops", "platforms": ["Facebook"], "intent": "Find recommendations", "business_relevance": "Reaches local shop owners", "target_audience": "Retailers"},
+      {"query": "small shop website design inspiration", "platforms": ["Instagram"], "intent": "Browse examples", "business_relevance": "Fits a portfolio of shop designs", "target_audience": "Shop owners"},
+      {"query": "website redesign partner for small businesses", "platforms": ["LinkedIn"], "intent": "Compare vendors", "business_relevance": "Matches studio design work", "target_audience": "Small business managers"},
+      {"query": "who offers small business website maintenance", "platforms": ["X"], "intent": "Ask for referrals", "business_relevance": "Matches ongoing support", "target_audience": "Owners with existing sites"}
+    ],
+    "seo_improvements": {
+      "primary_keyword": "small business website design",
+      "secondary_keywords": ["website maintenance"],
+      "long_tail_keywords": ["website design and maintenance for small businesses"],
+      "business_keywords": ["web design studio"],
+      "recommended_title": "Small Business Website Design | Northstar Web Studio",
+      "title_rationale": "Lead with the service and finish with the brand.",
+      "meta_description": "Build a small business website with Northstar Web Studio and get ongoing maintenance after launch.",
+      "supporting_content": ["Website maintenance FAQ", "Local retailer redesign case study"]
+    },
+    "top_services": [
+      {
+        "name": "Website design",
+        "description": "Designs responsive websites for local companies.",
+        "target_industry": "Local services and retail",
+        "target_customer": "Small business owners",
+        "main_benefit": "Gives customers a mobile-friendly way to find the business.",
+        "basis": "website_content",
+        "evidence_excerpt": "We design responsive websites for local businesses."
+      }
+    ],
+    "target_audience": {
+      "primary_audience": ["Local business owners"],
+      "secondary_audience": ["Small business marketing managers"],
+      "industries": ["Retail", "Local services"],
+      "business_types": ["Independent retailers", "Service companies"],
+      "customer_profiles": ["An owner replacing an outdated website"],
+      "geographical_focus": [],
+      "customer_needs": ["Mobile-friendly website", "Ongoing maintenance"],
+      "interests": ["Website redesign case studies"],
+      "marketing_segments": ["Local retailers with outdated websites"]
+    }
+  }
+}

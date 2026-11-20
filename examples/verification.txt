@@ -1,0 +1,6 @@
+Fixture-backed API verification
+The Windows sandbox blocked loopback sockets, so this run used a socket-free event loop.
+Website and provider responses were mocked.
+
+...........                                                              [100%]
+11 passed in 1.32s
