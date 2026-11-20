@@ -41,7 +41,7 @@ def validate_destination(url: URL) -> None:
     try:
         ipaddress.ip_address(host)
     except ValueError:
-        if "." not in host.rstrip("."):
+        if aiohttp.helpers.is_ip_address(host) or "." not in host.rstrip("."):
             raise UnsafeWebsite("Use a public website hostname.")
     else:
         if not public_address(host):
